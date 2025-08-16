@@ -76,7 +76,7 @@ body {
 
 
 .section1 {
-    background: url(background.webp);
+    background: url(/IMAGES/background.webp);
     background-repeat: no-repeat;
     background-size: 100rem;
     width: 95.1rem;
