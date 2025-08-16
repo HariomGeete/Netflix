@@ -1,0 +1,552 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: serif;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.main {
+    width: 95.1rem;
+}
+
+.logo img {
+    height: 12rem;
+    width: 12rem;
+    margin-left: 9rem;
+}
+
+.sign {
+    display: flex;
+    gap: 10px;
+}
+
+.sign button {
+    padding: .5rem;
+    width: 6rem;
+    height: 2.5rem;
+    border-radius: 6px;
+    background-color: rgba(236, 55, 55, 0.923);
+    color: white;
+    font-size: 15px;
+    border: none;
+    margin-right: 9rem;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.sign button:hover {
+    background-color: rgb(161, 0, 0);
+}
+
+.lang {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.312);
+    border-radius: 3px;
+    color: white;
+    width: 9rem;
+    height: 2.5rem;
+    border-radius: 6px;
+}
+
+.lang i {
+    margin-left: 1rem;
+}
+
+.lang select {
+    height: 2rem;
+    width: 7rem;
+    border: 1px solid rgba(255, 255, 255, 0.368);
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+    border: transparent;
+}
+
+
+.section1 {
+    background: url(background.webp);
+    background-repeat: no-repeat;
+    background-size: 100rem;
+    width: 95.1rem;
+    height: 46rem;
+}
+
+.search {
+    padding: 13rem;
+}
+
+.search h1 {
+    color: white;
+    font-size: 3rem;
+    margin-left: 18rem;
+    font-weight: 900;
+}
+
+.search h2 {
+    color: white;
+    font-size: 3rem;
+    margin-left: 19rem;
+    font-weight: 900;
+}
+
+.search p {
+    color: white;
+    font-size: 15px;
+    margin-left: 20rem;
+    font-weight: 500;
+    margin-top: 1.5rem;
+}
+
+.search h6 {
+    color: white;
+    font-size: 20px;
+    margin-left: 25rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.search input {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.486);
+    margin-left: 18rem;
+    margin-top: 3rem;
+    color: aliceblue;
+    height: 3rem;
+    width: 20rem;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+
+.search input:hover {
+    border: 1px solid white;
+}
+
+.search button {
+    height: 3rem;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+    border: none;
+    width: 13rem;
+    font-size: 20px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.search button:hover {
+    background-color: rgb(185, 31, 0);
+}
+
+.section2 {
+    background: linear-gradient(to top, black 90%, rgb(1, 1, 92));
+    height: 60rem;
+    position: relative;
+    background: radial-gradient(ellipse at top, #0a0f2c, #000);
+    border-top: 4px solid;
+    border-image: linear-gradient(to right, #ff0055, #ff00aa) 1;
+
+}
+
+
+.section2 h1 {
+    color: white;
+    margin-left: 5rem;
+    padding: 3rem;
+}
+
+.poster {
+    display: flex;
+    width: 3rem;
+    height: 17rem;
+    gap: 10px;
+    margin-left: 6rem;
+
+}
+
+.poster img {
+    cursor: pointer;
+    transition: .3s;
+}
+
+.poster img:hover {
+    transform: scale(1.1);
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.reason {
+    color: white;
+
+}
+
+.d1 {
+    height: 19rem;
+    width: 20rem;
+    border-radius: 20px;
+    background: linear-gradient(to top, rgb(126, 14, 109), rgba(1, 1, 84, 0.734));
+}
+
+.d1 h1 {
+    padding: 1rem;
+    margin-left: 0;
+    margin-top: 1rem;
+}
+
+.d1 p {
+    color: rgba(226, 226, 226, 0.851);
+    padding: 1rem;
+}
+
+.d1 img {
+    height: 6rem;
+    width: 6rem;
+    margin-left: 13rem;
+    margin-top: 2rem;
+}
+
+
+.d2 {
+    height: 19rem;
+    width: 20rem;
+    border-radius: 20px;
+    background: linear-gradient(to top, rgb(126, 14, 109), rgba(1, 1, 84, 0.734));
+}
+
+.d2 h1 {
+    padding: 1rem;
+    margin-left: 0;
+    margin-top: 1rem;
+}
+
+.d2 p {
+    color: rgba(226, 226, 226, 0.851);
+    padding: 1rem;
+}
+
+.d2 img {
+    height: 6rem;
+    width: 6rem;
+    margin-left: 13rem;
+    margin-top: 4rem;
+}
+
+.d3 {
+    height: 19rem;
+    width: 20rem;
+    border-radius: 20px;
+    background: linear-gradient(to top, rgb(126, 14, 109), rgba(1, 1, 84, 0.734));
+}
+
+.d3 h1 {
+    padding: 1rem;
+    margin-left: 0;
+    margin-top: 1rem;
+}
+
+.d3 p {
+    color: rgba(226, 226, 226, 0.851);
+    padding: 1rem;
+}
+
+.d3 img {
+    height: 6rem;
+    width: 6rem;
+    margin-left: 13rem;
+    margin-top: 2rem;
+}
+
+.d4 {
+    height: 19rem;
+    width: 20rem;
+    border-radius: 20px;
+    background: linear-gradient(to top, rgb(126, 14, 109), rgba(1, 1, 84, 0.734));
+}
+
+.d4 h1 {
+    padding: 1rem;
+    margin-left: 0;
+    margin-top: 1rem;
+}
+
+.d4 p {
+    color: rgba(226, 226, 226, 0.851);
+    padding: 1rem;
+}
+
+.d4 img {
+    height: 6rem;
+    width: 6rem;
+    margin-left: 13rem;
+    margin-top: 2rem;
+}
+
+.questions {
+    background-color: black;
+    color: white;
+}
+
+.questions h1 {
+    margin-left: 6rem;
+}
+
+.questions label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 0;
+    height: 0;
+    font-size: 50px;
+    padding: 1rem;
+    color: rgba(255, 255, 255, 0.708);
+}
+
+.q1 p {
+    padding: 2rem;
+    background-color: rgba(115, 115, 115, 0.31);
+    margin-left: 6rem;
+    margin-top: 1rem;
+    width: 80rem;
+    font-size: 25px;
+    transition: .3s;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.q1 p:hover {
+    background-color: #ffffff4e;
+}
+
+.q2 p {
+    padding: 2rem;
+    background-color: rgba(115, 115, 115, 0.31);
+    margin-left: 6rem;
+    margin-top: 1rem;
+    width: 80rem;
+    font-size: 25px;
+    transition: .3s;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.q2 p:hover {
+    background-color: #ffffff4e;
+}
+
+.q3 p {
+    padding: 2rem;
+    background-color: rgba(115, 115, 115, 0.31);
+    margin-left: 6rem;
+    margin-top: 1rem;
+    width: 80rem;
+    font-size: 25px;
+    transition: .3s;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.q3 p:hover {
+    background-color: #ffffff4e;
+}
+
+.q4 p {
+    padding: 2rem;
+    background-color: rgba(115, 115, 115, 0.31);
+    margin-left: 6rem;
+    margin-top: 1rem;
+    width: 80rem;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.q4 p:hover {
+    background-color: #ffffff4e;
+}
+
+.q5 p {
+    padding: 2rem;
+    background-color: rgba(115, 115, 115, 0.31);
+    margin-left: 6rem;
+    margin-top: 1rem;
+    width: 80rem;
+    font-size: 25px;
+    transition: .3s;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.q5 p:hover {
+    background-color: #ffffff4e;
+}
+
+.q6 p {
+    padding: 2rem;
+    background-color: rgba(115, 115, 115, 0.31);
+    margin-left: 6rem;
+    margin-top: 1rem;
+    width: 80rem;
+    font-size: 25px;
+    transition: .3s;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.q6 p:hover {
+    background-color: #ffffff4e;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+}
+
+.footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.login input {
+    height: 3.5rem;
+    width: 35rem;
+    background: transparent;
+    border: 1px solid;
+    border-color: rgba(255, 255, 255, 0.677);
+    border-radius: 4px;
+    color: white;
+    font-size: 20px;
+    font-family: serif;
+}
+
+.login input::placeholder {
+    padding: 1rem;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.666);
+}
+
+.login button {
+    display: flex;
+    padding: 1.5rem;
+    gap: 20px;
+    align-items: center;
+    height: 3.5rem;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+    border: none;
+    width: 13rem;
+    font-size: 20px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.login button:hover {
+    background-color: rgb(185, 31, 0);
+}
+
+.call {
+    display: flex;
+    padding: 4rem;
+    color: rgba(255, 255, 255, 0.666);
+}
+
+.foot {
+    display: flex;
+    margin-left: 6rem;
+    align-items: center;
+    gap: 10rem;
+}
+
+.foot a {
+    padding: 1rem;
+    color: rgba(255, 255, 255, 0.666);
+    display: flex;
+    align-items: center;
+    margin-top: -2rem;
+}
+
+.foot1 {
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.language {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.312);
+    border-radius: 3px;
+    color: white;
+    width: 7rem;
+    height: 2rem;
+    border-radius: 6px;
+    margin-left: 7rem;
+    margin-top: 2rem;
+}
+
+.language i {
+    margin-left: 1rem;
+}
+
+.language select {
+    height: 2rem;
+    width: 7rem;
+    border: 1px solid rgba(255, 255, 255, 0.368);
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+    border: transparent;
+}
+
+.last {
+    margin-top: 2rem;
+}
+
+.last p {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 4rem;
+    color: rgba(255, 255, 255, 0.666);
+    font-size: 13px;
+}
+
+.last label {
+    margin-left: 7rem;
+    color: rgba(255, 255, 255, 0.666);
+
+
+}
